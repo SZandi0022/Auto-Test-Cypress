@@ -1,0 +1,4 @@
+it('Steat - Cheked / unchkesd' ()=>{
+cy.get('Name element').should('not.be.cheked').click().should('be.cheked')
+cy.get('Name Element or ID radio bottum').should('not.be.cheked').click().should('be.cheked')
+})
